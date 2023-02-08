@@ -9,36 +9,32 @@
 <body>
     <nav>
         <header>
-            <table>
-                <tr>
-                    <td>
-                        <h1>DFA Learn HTML/CSS</h1>
-                    </td>
-                    <td>
-                        <form action="facebookClone.html">
-                            <input type="email" name="email" placeholder="Enter email...">
-                            <input type="password" name="pass" placeholder="Enter password...">
-                            <input type="submit" value="Login">
-                        </form>
-                    </td>
-                </tr>
-            </table>
+                <h1>DFA Learn HTML/CSS</h1>
+                <form class="login" action="facebookClone.html">
+                    <input type="email" name="email" placeholder="Enter email...">
+                    <input type="password" name="pass" placeholder="Enter password...">
+                    <input type="submit" value="Login">
+                </form>
         </header>
     </nav>
 
-    <section>
+    <section class="left">
         <h3>Facebook helps you to connect and share with the people in your life.</h3>
         <img src="images/peopleNetwork.png" alt="network of people image">
     </section>
 
-    <section>
+    <section class="right">
         <h2>Create an account</h2>
         <p>It's free and always will be</p>
         <form action="#" method="post">
-            <input type="text" name="First Name" placeholder="First Name">
-            <input type="text" name="Last Name" placeholder="Last Name"><br>
-            <input type="text" name="Number or Email" placeholder="Mobile number or Email"><br>
-            <input type="password" name="new password" placeholder="New Password"><br>
+            <div class="name">
+                <input type="text" name="First Name" placeholder="First Name">
+                <input type="text" name="Last Name" placeholder="Last Name"><br>
+            </div>
+            <div class="account">
+                <input type="text" name="Number or Email" placeholder="Mobile number or Email"><br>
+                <input type="password" name="new password" placeholder="New Password"><br>
+            </div>
             <label for="Birthday">Birthday</label><br>
             <span>
                 <select name="day">
@@ -219,11 +215,13 @@
                     <option value="1900">1900</option>
                 </select>
             </span> <br>
+            <div class = "gender">
             <input type="radio" name="Female">
             <label for="Gender">Female</label>
             <input type="radio" name="Male">
             <label for="Gender">Male</label><br>
-            <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+            </div>
+            <p class="terms">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
             <button type="submit">Sign Up</button>
         </form>
     </section>

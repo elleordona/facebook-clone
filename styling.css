@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:azure;
+}
+
+h1 {
+    color: white;
+    display: inline;
+}
+
+.login {
+    float: right;
+}
+.login>input {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav {
+    padding: 15px 10%;
+    align-items: center;
+    background-color: rgba(66, 103, 178, 1);
+}
+
+img {
+    padding: 5px;
+    width: 90%;
+}
+
+section {
+    margin-top: 30px;
+    width: 39%;
+}
+
+.right {
+    margin-right: 10%;
+    float: right;
+}
+
+.left {
+    margin-left: 10%;
+    float: left;
+}
+
+button {
+    margin-top: 5px;
+    padding: 8px 40px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: forestgreen;
+}
+
+p {
+    font-size: smaller;
+    margin-top: 6px;
+
+}
+
+.terms {
+    color: darkgrey;
+    font-size: x-small;
+    margin-bottom: 15px;
+    width: 300px;
+    text-align: justify;
+}
+
+.gender {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+
+form>span>select {
+    margin-top: 3px;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+form>label {
+    font-weight: 500;
+}
+
+.account>input {
+    width: 95%;
+    margin: 6px 0;
+    padding: 4px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+.name>input {
+    width: 45%;
+    margin: 6px 0;
+    padding: 4px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
